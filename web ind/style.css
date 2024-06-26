@@ -1,0 +1,314 @@
+/* Global Styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3;
+    color: #333;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+header {
+    background-color: #6b7a8f;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+.custom-font {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.profile-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.centered-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button-boxes {
+    list-style-type: none;
+    padding: 0;
+}
+.button-boxes li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+footer {
+    background-color: #6b7a8f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+/* Additional styles for the achievements section */
+
+section {
+    width: 80%;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #6b7a8f;
+}
+section p {
+    margin: 5px 0;
+    color: #555;
+}
+section ul {
+    margin-top: 10px;
+}
+section li {
+    margin-bottom: 5px;
+}
+section hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 2px solid #333;
+}
+
+/*Additional styles for the education section*/
+
+section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #6b7a8f
+}
+section p {
+    margin: 5px 0;
+    color: #555;
+}
+section hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 2px solid #333;
+}
+
+.education-logo {
+    width: 80px; /* Ubah lebar logo */
+    height: auto; /* Atur tinggi agar proporsional */
+    display: block; /* Agar logo berada di tengah */
+    margin: 0 auto 10px; /* Atur margin agar ada jarak antara logo dan teks */
+}
+
+/*Additional styles for the experience section*/
+
+.experience-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+.experience-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.experience-section h1 {
+    color: #6b7a8f;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.experience-section h3 {
+    margin-top: 30px;
+    color: #3498db;
+    font-size: 24px;
+}
+.experience-section p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #555;
+}
+.experience-section ul {
+    padding-left: 20px;
+}
+.experience-section li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+}
+.experience-section hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+/*Additional styles for the homepage section*/
+.about-me {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.about-me:hover {
+    transform: translateY(-5px);
+}
+.homepage-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+.homepage-title::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #007bff;
+    bottom: -10px;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.homepage-title:hover::after {
+    transform: scaleX(1);
+}
+.sub-header {
+    font-size: 28px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* Additional CSS for Visual Enhancements */
+header {
+    background: linear-gradient(to right, #6b7a8f,#6b7a8f);
+}
+header h1.custom-font span {
+    font-size: 28px;
+}
+.btn {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+footer {
+    background-color: #6b7a8f;
+}
+footer:hover {
+    background-color: #6b7a8f;
+}
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+.contact-info li {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-info i {
+    margin-right: 10px;
+}
+
+/*Additional styles for the Skills section*/
+
+.skills-box, .languages-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+.skills-box:hover, .languages-box:hover {
+    transform: translateY(-5px);
+}
+.skills-box ul, .languages-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+.skills-box li, .languages-box li {
+    padding: 5px 0;
+    font-size: 18px;
+}
+.skills-box h1, .languages-box h1 {
+    font-size: 24px;
+    color: #6b7a8f;
+    margin-bottom: 10px;
+}

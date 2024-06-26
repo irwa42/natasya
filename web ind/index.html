@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nurul Irwa Natasya Binti Arshad - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            margin-top: -20px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ada345;
+            color: #fff;
+            padding: 20px;
+            width: 100%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            margin-bottom: -10px;
+        }
+        .custom-font {
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border: 3px solid #fff;
+            border-radius: 50%;
+            margin-right: 15px;
+            transition: transform 0.3s ease;
+        }
+        .profile-img:hover {
+            transform: scale(1.05);
+        }
+        nav {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+        }
+        .button-boxes {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+        }
+        .button-boxes li {
+            margin: 0;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .btn:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #ada345;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        }
+        footer:hover {
+            background-color: #bca456;
+        }
+        .about-me {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .about-me:hover {
+            transform: translateY(-5px);
+        }
+        .homepage-title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            position: relative;
+        }
+        .homepage-title::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            background-color: #007bff;
+            bottom: -10px;
+            left: 0;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        .homepage-title:hover::after {
+            transform: scaleX(1);
+        }
+        .sub-header {
+            font-size: 28px;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 20px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        /* Additional CSS for Visual Enhancements */
+        header {
+            background: linear-gradient(to right, #ada345, #bca456);
+        }
+        header h1.custom-font span {
+            font-size: 28px;
+        }
+        .btn {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #ada345;
+        }
+        footer:hover {
+            background-color: #bca456;
+        }
+        .contact-info {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info li {
+            margin: 5px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .contact-info i {
+            margin-right: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1 class="custom-font">
+            <img src="photo/pass.JPG" alt="Profile Photo" class="profile-img">
+            <span>NURUL IRWA NATASYA BINTI ARSHAD</span>
+        </h1>
+        <nav>
+            <ul class="button-boxes">
+                <li><a class="btn" href="Home.html">Home</a></li>
+                <li><a class="btn" href="about.html">About Me</a></li>
+                <li><a class="btn" href="experience.html">Experience</a></li>
+                <li><a class="btn" href="education.html">Education</a></li>
+                <li><a class="btn" href="achievement.html">Achievement</a></li>
+                <li><a class="btn" href="skills.html">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="about-me">
+            <h2 class="homepage-title">Resume Website!</h2>
+            <p>My name is Nurul Irwa Natasya Binti Arshad. I am a passionate web developer with a strong background in information science. Here, you can explore my educational qualifications, professional experiences, skills, and achievements. Feel free to navigate through the sections to know more about my journey and what I can bring to your organization. Let's connect and create something amazing together!</p>
+        </section>
+        <section>
+            <ul class="contact-info">
+                <p>Contact Information</p>
+                <li><i class="fas fa-phone"></i>Phone: 01140245176</li>
+                <li><i class="fas fa-envelope"></i>Email: irwanatasya19a2@gmail.com</li>
+                <li><i class="fab fa-instagram"></i>Instagram: irw.tsy</li>
+            </ul>
+        </section>
+    </div>
+    <script src="buttoncolorchanger.js"></script>
+    <footer>
+        &copy; 2024 Nurul Irwa Natasya Binti Arshad. All rights reserved.
+    </footer>
+</body>
+</html>
